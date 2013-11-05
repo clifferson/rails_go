@@ -1,0 +1,4 @@
+recipes:
+- pivotal_workstation::create_var_chef_cache
+- sprout-osx-base::homebrew
+- sprout-osx-rbenv::default
