@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 SOLOISTDIR="${HOME}/soloistgo"
-SOLOISTRC_URL="https://raw.github.com/clifferson/rails-go/master/soloistrc"
-CHEFFILE_URL="https://raw.github.com/clifferson/rails-go/master/Cheffile"
+SOLOISTRC_URL="https://raw.github.com/clifferson/rails_go/master/soloistrc"
+CHEFFILE_URL="https://raw.github.com/clifferson/rails_go/master/Cheffile"
 
 # We are going to install omnibus chef and then use its embedded ruby/gem for soloist.
 OMNIBUS_CHEFCLIENT_URL="https://www.opscode.com/chef/install.sh"
