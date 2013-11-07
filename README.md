@@ -8,6 +8,16 @@
 curl -L https://raw.github.com/clifferson/rails_go/master/install.sh | sh
 ```
 
+## Attributes you can control via ENV vars.
+
+These attributes expect a curl compatiable url. http://foo.com/soloistrc or file:/path/to/Cheffile
+
+* SOLOISTRC_URL - `export SOLOISTRC_URL="http://foo.com/soloistrc"`
+* CHEFFILE_URL - `export CHEFFILE_URL="file:/path/to/Cheffile"`
+
+These default to using the respective files in my soloist-config repo. 
+
+
 This should be all you have to do to get your OS X 10.8 running.
 
 ## What now?
